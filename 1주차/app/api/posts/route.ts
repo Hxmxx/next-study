@@ -1,5 +1,5 @@
 //app/api/posts/route.js
-import { getPosts, addPost } from '@/app/data/posts';
+import { getPosts, addPost } from '../../data/posts';
 
 export async function GET() {
   //작성

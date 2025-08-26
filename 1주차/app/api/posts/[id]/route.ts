@@ -1,5 +1,5 @@
 //app/api/posts/[id]/route.js
-import { getPost, updatePost, deletePost } from '@/app/data/posts';
+import { getPost, updatePost, deletePost } from '../../../data/posts';
 
 export async function GET(request: Request, { params }: { params: { id: string } }) {
   const post = getPost(Number(params.id));
